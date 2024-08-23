@@ -2,7 +2,7 @@
     background-color: #3a8cff; 
     padding: 20px;
     width: 97vw;
-    height: 250px;
+    height: 70vh;
   }
   
   .Tabs-nav {
@@ -33,6 +33,8 @@
   }
   
   .Tabs-content {
+    margin-top: 150px;
     text-align: center;
+    color: #fff;
   }
   
