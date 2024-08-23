@@ -1,0 +1,38 @@
+.Tabs {
+    background-color: #3a8cff; 
+    padding: 20px;
+    width: 97vw;
+    height: 250px;
+  }
+  
+  .Tabs-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .Tabs-tab {
+    background: none;
+    border: 1px solid #0004ff;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px 20px;
+    transition:  0.3s, color 0.3s;
+  }
+
+  .Tabs-tab:hover {
+    border: 1px solid #190058;
+    background-color: #1f7dff;
+  }
+  
+  .Tabs-tab.active {
+    background-color: #ffee00; 
+    color: black;
+  }
+  
+  .Tabs-content {
+    text-align: center;
+  }
+  
